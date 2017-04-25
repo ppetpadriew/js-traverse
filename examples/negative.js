@@ -1,4 +1,4 @@
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 var obj = [ 5, 6, -3, [ 7, 8, -2, 1 ], { f : 10, g : -13 } ];
 
 traverse(obj).forEach(function (x) {

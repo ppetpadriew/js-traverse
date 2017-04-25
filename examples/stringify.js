@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 
 var obj = [ 'five', 6, -3, [ 7, 8, -2, 1 ], { f : 10, g : -13 } ];
 

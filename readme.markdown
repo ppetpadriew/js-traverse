@@ -13,7 +13,7 @@ Traverse and transform objects by visiting every node on a recursive walk.
 negative.js
 
 ````javascript
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 var obj = [ 5, 6, -3, [ 7, 8, -2, 1 ], { f : 10, g : -13 } ];
 
 traverse(obj).forEach(function (x) {
@@ -32,7 +32,7 @@ Output:
 leaves.js
 
 ````javascript
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 
 var obj = {
     a : [1,2,3],
@@ -58,7 +58,7 @@ Output:
 scrub.js:
 
 ````javascript
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 
 var obj = { a : 1, b : 2, c : [ 3, 4 ] };
 obj.c.push(obj);

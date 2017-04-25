@@ -1,4 +1,4 @@
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 
 var id = 54;
 var callbacks = {};

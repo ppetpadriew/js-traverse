@@ -1,7 +1,7 @@
 {
-    "name" : "traverse",
-    "version" : "0.6.6",
-    "description" : "traverse and transform objects by visiting every node on a recursive walk",
+    "name" : "turbo-traverse",
+    "version" : "1.0.0",
+    "description" : "Fork version that fixed bugs of js-traverse.",
     "main" : "index.js",
     "directories" : {
         "example" : "example",

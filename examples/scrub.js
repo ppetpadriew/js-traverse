@@ -1,5 +1,5 @@
 // scrub out circular references
-var traverse = require('traverse');
+var traverse = require('turbo-traverse');
 
 var obj = { a : 1, b : 2, c : [ 3, 4 ] };
 obj.c.push(obj);
