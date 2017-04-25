@@ -1,6 +1,6 @@
 {
     "name" : "turbo-traverse",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "Fork version that fixed bugs of js-traverse.",
     "main" : "index.js",
     "directories" : {
